@@ -1,0 +1,38 @@
+body{
+  font-family:arial;
+
+}
+
+.css-grid,
+.container{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap:10px;
+  align-items:center;
+}
+.container{
+  margin-bottom: 10px;
+}
+.input-style{
+  padding:6px;
+  font-size:15px;
+}
+.add-button,
+.delete-button{
+  
+  font-size:15px;
+  color:white;
+  font-weight:500px;
+  background-color: rgb(5, 147, 5);
+  border:none;
+  cursor:pointer;
+}
+.delete-button{
+  background-color: maroon;
+  padding:10px; 
+}
+.add-button{
+  padding:9.5px;
+}
+
